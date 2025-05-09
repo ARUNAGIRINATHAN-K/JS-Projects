@@ -71,5 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## 📸 Screenshot
 
-![Calculator UI](src/assets/screenshot.png)
+![Calculator UI](./src/assets/screenshot.png)
 
