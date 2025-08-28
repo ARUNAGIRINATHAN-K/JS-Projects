@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+#session-type {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #555;
+}
+
+#timer {
+  font-size: 3em;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  width: 200px;
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+#progress {
+  height: 100%;
+  width: 100%;
+  background: #4caf50;
+  transition: width 1s linear;
+}
+
+.controls button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #4caf50;
+  color: white;
+}
+
+.controls button:hover {
+  background: #45a049;
+}
+
+.controls button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
