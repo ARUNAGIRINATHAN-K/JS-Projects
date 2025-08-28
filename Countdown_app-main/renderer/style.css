@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.timer-setup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#countdown-display {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 20px 0;
+  transition: all 0.3s ease;
+}
+
+.controls button {
+  background: #00c6ff;
+  background: linear-gradient(to right, #0072ff, #00c6ff);
+  border: none;
+  padding: 12px 20px;
+  margin: 0 5px;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
